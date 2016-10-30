@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        
+        <title>Ecuaciones</title>
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+        <!-- Bootstrap core CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <!-- Material Design Bootstrap -->
+        <link href="css/mdb.min.css" rel="stylesheet">
+        <!-- Your custom styles (optional) -->
+        <link href="css/style.css" rel="stylesheet">
+        <!-- Chartist -->
+        <link rel="stylesheet" href="libs/chartist/chartist.min.css">
+    </head>
+    <body>
+<div class="container">
+        <div class="view hm-stylish-strong">
+            <img  style="width: 100%; height: 350px;" src= "img_circuito.jpg" class="img-fluid" alt="">
+            <div class="mask flex-center">
+                <h1 class="white-text">Circuitos Electricos</h1>
+            </div>
+        </div>
+        
+        <br>
+        <br>
+        <br>
+        
+        <div class="row" align="center">
+            <div class="col-md-4">
+                <h2 class="blue-text">Ingrese los valores:</h2>
+                <br>
+                <br>
+                <label  for="form5">Voltaje</label>
+                <input   style="text-align:center;" placeholder="V"  align="center" type="text" id="voltaje" class="form-control number">
+                <br>
+                <label for="form5">Resistencia</label>
+                <input   style="text-align:center;" placeholder="Ri" type="text" id="resistencia" class="form-control number">
+                <br>
+                <label for="form5">Inductancia</label>
+                <input  style="text-align:center;" placeholder="L" type="text" id="inductancia" class="form-control number">
+                <br>
+                <label for="form5"><b>tiempo</b></label>
+                <input style="text-align:center;" placeholder="t" type="text" id="t" class="form-control number">
+                <br><br>
+                <a class="btn btn-default btn-lg" id="btn_calc">Calcular<i class="fa fa-magic right"></i></a>
+            </div>
+            
+            <div class="col-md-8" align="center">
+                <div class="ct-chart ct-major-third"></div>
+                <h3>La eccuacion es:</h3>
+                <br>
+                <h2 id="equation"> f(t) = </h2>
+                
+                <h2 id="ft"> f(a) = </h2>
+            </div>
+        </div>
+        <div class="row" align="center">
+            <br>
+            <a href="index.html"  class="btn btn-unique btn btn-default" >Back<i class="fa fa-undo right"></i></a>
+            
+        </div>
+    </div>
+    <footer class="page-footer white center-on-small-only">
+
+        <!--Copyright-->
+    <div class="footer-copyright">
+        <div class="container-fluid">
+            © 2016 Copyright: <a> Alam Cabrera y Ricardo Fabila </a>
+
+        </div>
+    </div>
+
+</footer>
+    
+        <!-- SCRIPTS -->
+        <!-- JQuery -->
+        <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+        <!-- Bootstrap tooltips -->
+        <script type="text/javascript" src="js/tether.min.js"></script>
+        <!-- Bootstrap core JavaScript -->
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <!-- MDB core JavaScript -->
+        <script type="text/javascript" src="js/mdb.min.js"></script>
+        <!-- Chartist -->
+        <script src="libs/chartist/chartist.min.js" ></script>
+        <!-- Eccuación -->
+        <script type="text/javascript" src="js/circuito.js"></script>
+        <!-- Main -->
+        <script type="text/javascript" src="js/main_circuito.js"></script>
+    </body>
+</html>
