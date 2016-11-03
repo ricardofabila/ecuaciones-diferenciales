@@ -15,7 +15,7 @@ function corriente(A,B,C,t){
 	console.log(euler);
 	let resultado = A + (C * euler );
 	console.log(resultado);
-	ft = "f(" + t + ") = " + resultado;
+	ft = "f(" + t + ") = " + ( Math.round(resultado * 100) / 100 );
 	return resultado;
 }
 
