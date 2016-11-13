@@ -17,6 +17,7 @@ function obtenerNormal(masa, d_alargada, p_inicial, velocidad) {
 	let W = obtenerW(W2);
 	let C1 = obtenerC1(p_inicial);
 	let C2 = obtenerC2(velocidad, W);
+	W = Math.round(W * 1000) / 1000;
 	
 	//console.log(k);
 	//console.log(m);
@@ -48,6 +49,7 @@ function obtenerSenoidal(masa, d_alargada, p_inicial, velocidad) {
 	let W = obtenerW(W2);
 	let C1 = obtenerC1(p_inicial);
 	let C2 = obtenerC2(velocidad, W);
+	W = Math.round(W * 1000) / 1000;
 	
 	//console.log(k);
 	//console.log(m);
