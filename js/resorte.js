@@ -32,7 +32,7 @@ function obtenerNormal(masa, d_alargada, p_inicial, velocidad) {
 		signo2 = "+"
 	}
 
-	let ecuacionNormal = "X(t) = " + C1 + "sin("+ W + "t) " + signo2 + C2 + "cos(" + W + "t)";
+	let ecuacionNormal = "X(t) = " + C1 + "cos("+ W + "t) " + signo2 + C2 + "sin(" + W + "t)";
 	//console.log(ecuacionNormal);
 	
 	return ecuacionNormal;
