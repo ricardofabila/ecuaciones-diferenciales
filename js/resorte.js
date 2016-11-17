@@ -87,7 +87,7 @@ function obtenerPhi(C1, C2) {
 	console.log("C1: " + C1 + " C2: " + C2)
 	let phi = Math.atan(C1/C2);
 	
-	if (Math.cos(phi) < 0) {
+	if (Math.cos(phi) > 0) {
 		phi = phi + Math.PI;
 	}
 	
