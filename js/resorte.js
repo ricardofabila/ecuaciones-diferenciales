@@ -32,7 +32,7 @@ function obtenerNormal(masa, d_alargada, p_inicial, velocidad) {
 		signo2 = "+"
 	}
 
-	let ecuacionNormal = "X(t) = " + C1 + "sen("+ W + "t) " + signo2 + C2 + "cos(" + W + "t)";
+	let ecuacionNormal = "X(t) = " + C1 + "sin("+ W + "t) " + signo2 + C2 + "cos(" + W + "t)";
 	//console.log(ecuacionNormal);
 	
 	return ecuacionNormal;
@@ -86,7 +86,7 @@ function obtenerA(C1, C2) {
 function obtenerPhi(C1, C2) {
 	let phi = Math.atan(C1/C2);
 	
-	if (Math.cos(phi) < 0) {
+	if (Math.cos(phi) > 0) {
 		phi = phi + Math.PI;
 	}
 	
