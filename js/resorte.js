@@ -85,9 +85,11 @@ function obtenerA(C1, C2) {
 
 function obtenerPhi(C1, C2) {
 	let phi = Math.atan(C1/C2);
-	if (Math.cos(phi) > 0 && Math.sin(phi) < 0) {
+	
+	if (Math.cos(phi) < 0) {
 		phi = phi + Math.PI;
 	}
+	
 	return Math.round(phi * 1000) / 1000;
 }
 
