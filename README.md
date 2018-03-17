@@ -1,7 +1,7 @@
 # ecuaciones-diferenciales
 Este proyecto resuelve las ecuaciones diferenciales de Ley de Enfriamiento de Newton así como de Intensidad de Corriente.
 
-#Diferential Equations
+# Differential Equations
 
 This project solves the differential equations of Newton's Cooling Law as well as Current Intensity.
 
